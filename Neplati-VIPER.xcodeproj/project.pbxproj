@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		F1C90C942CF0CB9C008ADAF9 /* Neplati-VIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Neplati-VIPER.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1D5167C2D009C5C00FD4853 /* Neplati-VIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Neplati-VIPER.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		F1C90CA62CF0CB9E008ADAF9 /* Exceptions for "Neplati-VIPER" folder in "Neplati-VIPER" target */ = {
+		F1C90CD52CF0CBFC008ADAF9 /* Exceptions for "Neplati-VIPER" folder in "Neplati-VIPER" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -21,10 +21,10 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		F1C90C962CF0CB9C008ADAF9 /* Neplati-VIPER */ = {
+		F1C90CCF2CF0CBFC008ADAF9 /* Neplati-VIPER */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				F1C90CA62CF0CB9E008ADAF9 /* Exceptions for "Neplati-VIPER" folder in "Neplati-VIPER" target */,
+				F1C90CD52CF0CBFC008ADAF9 /* Exceptions for "Neplati-VIPER" folder in "Neplati-VIPER" target */,
 			);
 			path = "Neplati-VIPER";
 			sourceTree = "<group>";
@@ -45,17 +45,9 @@
 		F1C90C8B2CF0CB9C008ADAF9 = {
 			isa = PBXGroup;
 			children = (
-				F1C90C962CF0CB9C008ADAF9 /* Neplati-VIPER */,
-				F1C90C952CF0CB9C008ADAF9 /* Products */,
+				F1C90CCF2CF0CBFC008ADAF9 /* Neplati-VIPER */,
+				F1D5167C2D009C5C00FD4853 /* Neplati-VIPER.app */,
 			);
-			sourceTree = "<group>";
-		};
-		F1C90C952CF0CB9C008ADAF9 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				F1C90C942CF0CB9C008ADAF9 /* Neplati-VIPER.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,13 +66,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				F1C90C962CF0CB9C008ADAF9 /* Neplati-VIPER */,
+				F1C90CCF2CF0CBFC008ADAF9 /* Neplati-VIPER */,
 			);
 			name = "Neplati-VIPER";
 			packageProductDependencies = (
 			);
 			productName = "Neplati-VIPER";
-			productReference = F1C90C942CF0CB9C008ADAF9 /* Neplati-VIPER.app */;
+			productReference = F1D5167C2D009C5C00FD4853 /* Neplati-VIPER.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -108,7 +100,7 @@
 			mainGroup = F1C90C8B2CF0CB9C008ADAF9;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = F1C90C952CF0CB9C008ADAF9 /* Products */;
+			productRefGroup = F1C90C8B2CF0CB9C008ADAF9;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -150,7 +142,6 @@
 				INFOPLIST_FILE = "Neplati-VIPER/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -178,7 +169,6 @@
 				INFOPLIST_FILE = "Neplati-VIPER/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
