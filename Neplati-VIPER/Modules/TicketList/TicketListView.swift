@@ -29,6 +29,11 @@ final class TicketListViewController: UIViewController, TicketListViewProtocol {
 	
 	var presenter: TicketListPresenterInput?
 
+	override func viewWillAppear(_ animated: Bool) {
+		super.viewWillAppear(animated)
+		
+		view.backgroundColor = .background
+	}
 	
 	
 }
